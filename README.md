@@ -1,0 +1,2 @@
+# wordle-only
+wordle-only
