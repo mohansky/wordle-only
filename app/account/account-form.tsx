@@ -5,7 +5,7 @@ import {
   Session,
   createClientComponentClient,
 } from "@supabase/auth-helpers-nextjs";
-import Avatar from "./avatar";
+// import Avatar from "./avatar";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
