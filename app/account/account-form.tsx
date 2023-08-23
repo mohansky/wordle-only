@@ -87,7 +87,7 @@ export default function AccountForm({ session }: { session: Session | null }) {
 
   return (
     <div className="form-widget my-10">
-      <Avatar
+{/*       <Avatar
         uid={user.id}
         url={avatar_url}
         size={75}
@@ -95,7 +95,7 @@ export default function AccountForm({ session }: { session: Session | null }) {
           setAvatarUrl(url);
           updateProfile({ fullname, username, nick, avatar_url: url });
         }}
-      />
+      /> */}
       <div className="mt-5">
         <label htmlFor="email">Email</label>
         <Input id="email" type="text" value={session?.user.email} disabled />
